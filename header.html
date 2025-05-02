@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-8 py-4 bg-white shadow-md">
+    <div class="flex items-center gap-3">
+      <img src="https://via.placeholder.com/40" alt="Logo" class="rounded-full w-10 h-10" />
+      <span class="text-xl font-semibold text-pink-600">Digital Store</span>
+    </div>
+
+    <div class="flex-1 mx-6">
+      <input type="text" placeholder="Pesquisar produtos..." class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" />
+    </div>
+
+    <div class="flex items-center gap-4">
+      <a href="#" class="text-sm text-gray-700 hover:underline">Cadastre-se</a>
+      <button class="px-4 py-2 text-white bg-pink-600 rounded hover:bg-pink-700">Entrar</button>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m13-9l2 9M9 21h6" />
+      </svg>
+    </div>
+  </header>
+
+  <!-- Menu -->
+  <nav class="flex justify-center space-x-6 py-4 bg-white shadow-sm">
+    <a href="#" class="text-pink-600 font-semibold border-b-2 border-pink-600 pb-1">Home</a>
+    <a href="#" class="text-gray-600 hover:text-pink-600">Produtos</a>
+    <a href="#" class="text-gray-600 hover:text-pink-600">Categorias</a>
+    <a href="#" class="text-gray-600 hover:text-pink-600">Meus Pedidos</a>
+  </nav>
+
+  <!-- Banner principal -->
+  <main class="flex flex-col lg:flex-row items-center justify-between px-8 py-12 bg-white">
+    <div class="max-w-md space-y-4">
+      <p class="text-sm text-yellow-500 font-semibold">Melhores ofertas personalizadas</p>
+      <h1 class="text-4xl font-bold text-gray-900">
+        Queima de <br /> estoque Nike <span class="inline-block">🔥</span>
+      </h1>
+      <p class="text-gray-600">Consequat culpa exercitation mollit nisi exceptetur do do tempor laboris eiusmod irure consectetur.</p>
+
+      <!-- Avatares -->
+      <div class="flex items-center space-x-[-10px]">
+        <img src="https://via.placeholder.com/32" class="w-8 h-8 rounded-full border-2 border-white" />
+        <img src="https://via.placeholder.com/32" class="w-8 h-8 rounded-full border-2 border-white" />
+        <div class="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-sm font-bold text-white border-2 border-white">E</div>
+      </div>
+
+      <button class="mt-4 px-6 py-2 bg-pink-600 text-white rounded hover:bg-pink-700">Ver Ofertas</button>
+    </div>
+
+    <!-- Imagem do Tênis -->
+    <div class="mt-10 lg:mt-0">
+      <img src="https://images.unsplash.com/photo-1600185364722-04b71c2bcf2d?auto=format&fit=crop&w=600&q=80" alt="Tênis Nike" class="w-full max-w-md" />
+    </div>
+  </main>
+
+</body>
+</html>
